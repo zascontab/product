@@ -168,7 +168,7 @@ class ProductEntity with _$ProductEntity {
       salePrice: price,
       taxConfig: taxConfig ?? TaxConfiguration(
         sriProductCode: 'SRV001',
-        sriIvaCode: '2', // IVA 12%
+        sriIvaCode: '4', // IVA 15%
       ),
       priceConfig: PriceConfiguration(),
       inventoryConfig: InventoryConfiguration(isManaged: false),
@@ -199,7 +199,7 @@ class ProductEntity with _$ProductEntity {
       salePrice: price,
       taxConfig: taxConfig ?? TaxConfiguration(
         sriProductCode: 'PROD001',
-        sriIvaCode: '2', // IVA 12%
+        sriIvaCode: '4', // IVA 15%
       ),
       priceConfig: PriceConfiguration(),
       inventoryConfig: InventoryConfiguration(
